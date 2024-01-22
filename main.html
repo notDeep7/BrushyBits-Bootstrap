@@ -56,23 +56,58 @@
 
       <div class="text-center bg-black p-4 text-white container-fluid">
         <div class="row">
-          <div class="col-1">Bootstrap</div>
+          <div class="col-1 h5">Bootstrap</div>
           <div class="col-10 list-unstyled">
             <div class="d-inline-flex">
-              <li class="me-4 text-uppercase">Shop</li>
-              <li class="me-4 text-uppercase">Owners</li>
-              <li class="me-4 text-uppercase">Our Impact</li>
+              <li class="me-5 ms-5 text-uppercase">Shop</li>
+              <li class="me-5 text-uppercase">About</li>
+              <li class="me-5 text-uppercase">Our Impact</li>
             </div>
           </div>
-          <div class="col-1">Icons</div>
+          <div class="col-1">
+            <div class="d-flex">
+              <i class="fa-solid fa-user h3 me-3"></i>
+              <i class="fa-solid fa-cart-shopping h3"></i>
+            </div>
+          </div>
         </div>
       </div>
     </header>
     <!-- FIRST BLOCK -->
     <div
       class="first-block"
-      style="height: 100vh; background-color: hsl(132, 9.43%, 89.61%)"
-    ></div>
+      style="
+        height: 100vh;
+        background-color: hsl(132, 9.43%, 89.61%);
+        background-image: url(img.webp);
+        background-size: cover;
+        background-position-y: 50px;
+      "
+    >
+      <div class="container position-absolute ms-4" style="top: 30%">
+        <div class="row display-4 text-center">
+          <div class="col-6">A better way to <br />brush your teeth.</div>
+        </div>
+
+        <div class="row h5 text-center mt-5">
+          <div class="col-6">
+            Toothpaste Bits without the plastic <br />tubes or harsh chemicals
+            that <br />actually work.
+          </div>
+        </div>
+
+        <div class="row text-center mt-5">
+          <div class="col-6">
+            <input
+              class="btn btn-dark rounded-0"
+              style="width: 60%"
+              type="button"
+              value="SHOP NOW"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="second-block bg-white" style="height: 110vh">
       <div
         class="header bg-white border-top border-bottom border-black border-2 container-fluid"
@@ -192,14 +227,22 @@
       <!-- card completed -->
     </div>
 
-    <div class="third-block bg-white" style="height: 110vh">
-      <div class="container-fluid bg-white p-5">
+    <div class="third-block" style="height: 110vh; background-color: #fafafa">
+      <div class="container-fluid p-5">
         <p class="display-3 text-center">Why Bits are Better</p>
       </div>
       <!-- third block -->
 
       <div class="container-fluid">
-        <div class="container-fluid">
+        <div
+          class="container-fluid"
+          style="
+            background-image: url(img-5.webp);
+            background-position: center;
+            background-size: 80%;
+            background-repeat: no-repeat;
+          "
+        >
           <div class="row text-center align-items-center my-4">
             <div class="col-3 fs-6">
               <div class="px-5">
@@ -367,7 +410,60 @@
         20,000+ Reviews For A Reason
       </div>
     </div>
-
+    <!-- Adding Cards -->
+    <div class="container-fluid" style="background-color: black">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 25rem; height: 25rem">
+              <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 25rem; height: 25rem">
+              <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 25rem; height: 25rem">
+              <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col">
+            <button
+              class="btn btn-dark p-3 mt-4 rounded-0 fw-bold"
+              type="button"
+              style="width: 30%; background-color: #6ce3bb; color: black"
+            >
+              READ ALL REVIEWS
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Carousel Items -->
     <div class="fourth-block bg-black" style="height: 140vh">
       <div class="container"></div>
