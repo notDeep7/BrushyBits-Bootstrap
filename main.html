@@ -17,11 +17,20 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <style>
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: "IBM Plex Mono";
+        font-weight: 600;
       }
     </style>
   </head>
@@ -60,7 +69,7 @@
       class="first-block"
       style="height: 100vh; background-color: hsl(132, 9.43%, 89.61%)"
     ></div>
-    <div class="second-block bg-secondary" style="height: 100vh">
+    <div class="second-block bg-white" style="height: 150vh">
       <div
         class="header bg-white border-top border-bottom border-black border-2 container-fluid"
         style="height: 5rem"
@@ -77,6 +86,81 @@
           <div class="col text-center mt-4">Dummy</div>
         </div>
       </div>
+      <div class="container-fluid bg-white p-5">
+        <p class="display-3 text-center">Shop Best Seller</p>
+      </div>
+      <!-- card in second block -->
+
+      <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-4 g-4 ">
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body" style="height: 30rem;">
+                <h5 class="card-title fs-4">TOOTHPASTE BITS <br>FLUORIDE-FREE</h5>
+                <p class="card-text">
+                  From $8/month
+                </p>
+              </div>
+              <div class="card-footer bg-black text-center "style="height: 4rem;">
+                <small class="text-white fs-4"
+                  >ADD TO BAG</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fs-4">TOOTHPASTE BITS <br>WITH FLUORIDE</h5>
+                <p class="card-text">
+                  From $4/month
+                </p>
+              </div>
+              <div class="card-footer bg-black text-center"style="height: 4rem;">
+                <small class="text-white fs-4"
+                  >ADD TO BAG</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fs-4">DEODORANT</h5>
+                <p class="card-text">
+                  From $8/month
+                </p>
+              </div>
+              <div class="card-footer bg-black text-center" style="height: 4rem;">
+                <small class="text-white fs-4"
+                  >ADD TO BAG</small
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fs-4">MOUTHWASH BITS</h5>
+                <p class="card-text fs-6">
+                  From $5/month
+                </p>
+              </div>
+              <div class="card-footer bg-black text-center" style="height: 4rem;">
+                <small class="text-white fs-4"
+                  >ADD TO BAG</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card completed -->
     </div>
     <div class="third-block bg-success" style="height: 100vh"></div>
   </body>
